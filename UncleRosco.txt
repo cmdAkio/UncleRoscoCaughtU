@@ -1,7 +1,6 @@
 @echo off
-@echo ...
+@echo Press Enter
 pause
-@echo ...
 @echo My name is Uncle Rosco what is yours???
 pause
 set /p name=What's your name?
