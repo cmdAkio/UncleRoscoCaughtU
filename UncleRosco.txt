@@ -9,6 +9,6 @@ pause
 echo Now... press enter again :)
 pause
 :loop
-<nul set /p=""
+powershell "[console]::beep(1000, 500)"
 start https://uncleroscohascaughtyou.neocities.org/
 goto loop
