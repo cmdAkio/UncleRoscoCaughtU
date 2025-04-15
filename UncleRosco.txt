@@ -9,6 +9,6 @@ pause
 echo Now... press enter again :)
 pause
 :loop
-echo ^G
+echo 
 start https://uncleroscohascaughtyou.neocities.org/
 goto loop
