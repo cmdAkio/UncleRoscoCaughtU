@@ -11,8 +11,8 @@ pause
 :loop
 powershell "[console]::beep(1000, 500)"
 start "" cmd /k "echo UncleRoscoCaughtU & color CF & title UNCLE_ROSCO_CAUGHT_YOU"
-timeout /t 1 >nul
+timeout /t 0.1 >nul
 start "" cmd /k "echo UncleRoscoCaughtU & color FC & title UNCLE_ROSCO_CAUGHT_YOU"
-timeout /t 1 >nul
+timeout /t 0.1 >nul
 start https://uncleroscohascaughtyou.neocities.org/
 goto loop
