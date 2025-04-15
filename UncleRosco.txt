@@ -10,7 +10,9 @@ echo Now... press enter again :)
 pause
 :loop
 powershell "[console]::beep(1000, 500)"
-color CF & echo UncleRoscoCaughtU & timeout 1 >nul
-color FC & echo UncleRoscoCaughtU & timeout 1 >nul
+start "" cmd /k "echo UncleRoscoCaughtU & color CF & title UNCLE_ROSCO_CAUGHT_YOU"
+timeout /t 1 >nul
+start "" cmd /k "echo UncleRoscoCaughtU & color FC & title UNCLE_ROSCO_CAUGHT_YOU"
+timeout /t 1 >nul
 start https://uncleroscohascaughtyou.neocities.org/
 goto loop
