@@ -18,15 +18,8 @@ HOWEVER, if you want to do a little funnying scroll down.
 
 SOME WARNINGS:
  if you want to keep it as safe as possible dont make any changes.
-if you want to do a little funny proceed with caution.  
+if you want to do a little funny copy and paste the txt file.
 
-
-CAUTION !!!
-BEFORE LISTED MAY CAUSE BSOD IN RARE CASES BUT MOSTLY HARMLESS TO MY KNOWLAGE
-
-:loop
-start (copy and paste rosco website link)
-goto loop
 
 NOW, to make it stop just simply reboot.
 it wont open again unless clicked on.
