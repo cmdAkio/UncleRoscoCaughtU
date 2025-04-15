@@ -3,7 +3,7 @@ Made as a side project
 
 What it doesz
 pretty basic just spams open tabs of a website I made 5 times.
-it doesnt store anything nore download anything.
+it doesnt store anything nor download anything.
 the version you can download is the "safe" version
 HOWEVER, if you want to do a little funnying scroll down.
 
