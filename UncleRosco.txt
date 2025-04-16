@@ -17,4 +17,5 @@ timeout /t 0.1 >nul
 start https://uncleroscohascaughtyou.neocities.org/
 set "text=THIS COMPUTER HAS BEEN HYJACKED BY UNCLE ROSCO"
 powershell -Command "Add-Type -AssemblyName System.Speech; $speak = New-Object System.Speech.Synthesis.SpeechSynthesizer; $speak.Speak('%text%');"
+timeout /t 3 >nul
 goto loop
