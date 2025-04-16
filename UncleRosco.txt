@@ -14,7 +14,7 @@ start "" cmd /k "echo UncleRoscoCaughtU & color CF & title UNCLE_ROSCO_CAUGHT_YO
 timeout /t 0.1 >nul
 start "" cmd /k "echo UncleRoscoCaughtU & color FC & title UNCLE_ROSCO_CAUGHT_YOU"
 timeout /t 0.1 >nul
+start https://uncleroscohascaughtyou.neocities.org/
 set "text=THIS COMPUTER HAS BEEN HYJACKED BY UNCLE ROSCO"
 powershell -Command "Add-Type -AssemblyName System.Speech; $speak = New-Object System.Speech.Synthesis.SpeechSynthesizer; $speak.Speak('%text%');"
-start https://uncleroscohascaughtyou.neocities.org/
 goto loop
