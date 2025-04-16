@@ -1,19 +1,18 @@
 @echo off
-echo Press Enter
+@echo Press Enter
 pause
-echo My name is Uncle Rosco what is yours???
+@echo My name is Uncle Rosco what is yours???
 pause
 set /p name=What's your name?
 echo heh heh heh nice to meetcha big boy
 pause
 echo Now... press enter again :)
 pause
-
 :loop
 powershell "[console]::beep(1000, 500)"
 start "" cmd /k "echo UncleRoscoCaughtU & color CF & title UNCLE_ROSCO_CAUGHT_YOU"
-ping -n 1 -w 10 127.0.0.1 >nul
+timeout /t 0.1 >nul
 start "" cmd /k "echo UncleRoscoCaughtU & color FC & title UNCLE_ROSCO_CAUGHT_YOU"
-ping -n 1 -w 10 127.0.0.1 >nul
+timeout /t 0.1 >nul
 start https://uncleroscohascaughtyou.neocities.org/
 goto loop
